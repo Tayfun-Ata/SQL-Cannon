@@ -1,0 +1,23 @@
+{
+    "custom_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",
+    "proxies": null,
+    "rate_limit": 5,
+    "timeout": 15,
+    "retries": 3,
+    "output_log_file": "output.log",
+    "output_json_file": "output.json",
+    "output_html_file": "output.html",
+    "resume_file": "resume.txt",
+    "status_codes_to_log": [200, 403, 500],
+    "extensions": ["", ".php", ".html", ".asp", ".aspx", ".jsp"],
+    "detection_settings": {
+        "time_based_delay": 5,
+        "boolean_diff_threshold": 0.95,
+        "error_detection": true,
+        "union_detection": true,
+        "blind_detection": true,
+        "fingerprint_database": true
+    },
+    "progressive_scan": true,
+    "disable_color": false
+}
